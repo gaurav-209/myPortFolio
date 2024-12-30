@@ -1,0 +1,382 @@
+.about{
+    height: 300px;
+    width: 100%;
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+}
+
+.about-left{
+    position: absolute;
+    background-color: #7EA9E6;
+    height: 500px;
+    width: 30%;
+    display: flex;
+}
+
+.about-left img{
+    position: relative;
+    z-index: 11;
+    border: 3px solid white;
+    width: 250px !important;
+    height: 250px;
+    left: 250px;
+    top: 100px;
+}
+
+.about-right{
+    background-color: rgb(35, 75, 75);
+    color: white;
+    width: 75%;
+    height: 500px;
+    position: absolute;
+    left: 25%;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-right h1{
+    text-align: left;
+}
+
+.about-right p{
+    padding: 10px;
+    width: 60%;
+}
+
+.relative{
+    display: flex;
+    position: relative;
+    width: 50%;
+    gap: 50px;
+    top: 80px;
+    right: 65px;
+}
+
+.ideas{
+z-index: 0;
+position: absolute;
+width: 200px;
+top: 20px;
+left: 10px;
+color: rgb(18, 2, 70);
+font-size: medium;
+font-weight: 500;
+}
+
+.story-container{
+    display: flex;
+}
+
+.story-left{
+    width: 60%;
+    padding: 50px;
+}
+
+.story-left h3{
+    color: #faaa60;
+    padding-bottom: 20px;
+}
+.story-left h4{
+    color: #faaa60;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.story-left p{
+    color: white;
+    padding-bottom: 10px;
+    text-align: justify;
+    width: 900px;
+}
+
+.story-right{
+    width: 40%;
+    padding: 50px;
+    color: #7EA9E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.story-right h3{
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.story-right img{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.workflow-container{
+    display: flex;
+    color: white;
+}
+
+.workflow-left{
+    width: 180px;
+    padding: 30px;
+}
+
+.workflow-right{
+    width: 50%;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.workflow-right ol li{
+    padding: 20px;
+}
+
+
+.workflow-left img{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.Myskills{
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Myskills h3{
+    text-align: center;
+    padding: 30px;
+}
+
+.Myskills img{
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.skills-icon{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-icon p{
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .ideas{
+        width: 120px;
+    }
+
+    .about-left img{
+        left: 80px;
+        width: 150px;
+    }
+
+    .about-right{
+        width: 75%;
+    }
+
+    .relative{
+        top: 60px;
+        right: 5px;
+        width: 100%;
+        gap: 0px;
+    }
+
+    .story-left{
+        width: 55%;
+        font-size: small;
+        padding-top: 0;
+    }
+
+    .story-right{
+        font-size: small;
+        padding: 0px;
+        width: 20%;
+    }
+
+    .story-right img{
+        margin-left: 40px;
+        width: 250px;
+        margin-bottom: 100px;
+    }
+
+    .story-right h3{
+        margin-left: 40px;
+        width: 200px;
+        padding-top: 0;
+    }
+
+    .story-left p{
+        width: 100%;
+    }
+
+    .workflow-container{
+        width: 50%;
+        font-size: small;
+    }
+
+    .workflow-left{
+        width: 15%;
+    }
+
+    .workflow-left img{
+        width: 100px;
+    }
+
+    .workflow-right{
+        width: 70%;
+        font-size: x-small;
+    }
+
+    .Myskills{
+        width: 50%;
+    }
+
+    .skills-icon img{
+        width: 32px;
+        height: 32px;
+    }
+
+    .skills-icon{
+        font-size: small;
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .story-container{
+        flex-direction: column-reverse;
+    }
+
+    .story-right{
+        width: 100%;
+    }
+
+    .story-right h3{
+        margin: 0;
+        padding: 0;
+        width: 95%;
+    }
+
+    .story-right img{
+        padding: 10px;
+        margin: 0;
+        height: 250px;
+    }
+
+    .story-left{
+        margin: 0;
+        width: 75%;
+    }
+
+    .story-left p{
+        width: 100%;
+        margin: 0;
+        font-size: 8px;
+    }
+
+    .ideas{
+        top: 400px;
+    }
+
+    .about-container{
+        width: 100%;
+    }
+
+    .about-left p{
+        font-size: small;
+    }
+
+    .about-left{
+        width: 120px;
+    }
+
+    .about-left img{
+        width: 100px;
+        height: 150px;
+        left: 40px;
+    }
+
+    .about-right{
+        font-size: x-small;
+        left: 120px;
+        width: 70%;
+    }
+
+    .pad{
+        padding-top: 350px !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .workflow-container{
+        width: 90%;
+    }
+
+    .Myskills{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 740px) {
+    .about-right{
+        width: 66%;
+        height: 550px;
+    }
+
+    .story-left{
+        width: 72%;
+    }
+
+    .ideas{
+        top: 280px;
+        width: 100px;
+    }
+
+    .relative{
+        width: 300px;
+        gap: px;
+    }
+
+    .about-right p {
+        padding-left: 40px;
+        font-size: 9px;
+        
+    }
+
+    .about-left{
+        height: 550px;
+    }
+
+    .skills-icon img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .skills-icon{
+        width: 90%;
+    }
+}

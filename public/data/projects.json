@@ -1,0 +1,59 @@
+[
+    {
+      "title": "Portfolio Website",
+      "desc": "A responsive portfolio site built with React.js.",
+      "imgsrc": "/images/portfolio.png",
+      "link": "https://myportfolio.com",
+      "id": "1"
+    },
+    {
+      "title": "Ayira Kids",
+      "desc": "An online store for kids built with React.",
+      "imgsrc": "/images/ayirakids.png",
+      "link": "https://ayirakids.com",
+      "id": "2"
+    },
+    {
+      "title": "Portfolio Website",
+      "desc": "A responsive portfolio site built with React.js.",
+      "imgsrc": "/images/portfolio.png",
+      "link": "https://myportfolio.com",
+      "id": "3"
+    },
+    {
+      "title": "Ayira Kids",
+      "desc": "An online store for kids built with React.",
+      "imgsrc": "/images/ayirakids.png",
+      "link": "https://ayirakids.com",
+      "id": "4"
+    },
+    {
+      "title": "Portfolio Website",
+      "desc": "A responsive portfolio site built with React.js.",
+      "imgsrc": "/images/portfolio.png",
+      "link": "https://myportfolio.com",
+      "id": "5"
+    },
+    {
+      "title": "Ayira Kids",
+      "desc": "An online store for kids built with React.",
+      "imgsrc": "/images/ayirakids.png",
+      "link": "https://ayirakids.com",
+      "id": "6"
+    },
+    {
+      "title": "Portfolio Website",
+      "desc": "A responsive portfolio site built with React.js.",
+      "imgsrc": "/images/portfolio.png",
+      "link": "https://myportfolio.com",
+      "id": "7"
+    },
+    {
+      "title": "Ayira Kids",
+      "desc": "An online store for kids built with React.",
+      "imgsrc": "/images/ayirakids.png",
+      "link": "https://ayirakids.com",
+      "id": "8"
+    }
+  ]
+  

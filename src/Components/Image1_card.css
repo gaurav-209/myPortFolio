@@ -1,0 +1,25 @@
+.imagecard{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    
+    .imagecard{
+    height: 150px;
+    width: 170px;
+    padding: 10px;
+    margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .imagecard{
+        width: 80px;
+        height: 120px;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.slick-slide > div{
+  margin: 0 30px;
+  width: 100px;
+}
+
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+/* General Font Settings */
+body {
+  font-family: 'Roboto', sans-serif; /* Body Text Font */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif; /* Heading Font */
+  font-weight: 600; /* Bold weight for headings */
+
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* Regular weight for paragraphs */
+  /* Softer color for body text */
+}

@@ -1,0 +1,79 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Enables wrapping */
+    gap: 16px; /* Adds spacing between cards */
+    justify-content: center; /* Distributes cards evenly */
+    background-color: #363434;
+    padding: 20px;
+}
+
+.p-card {
+    flex: 1 1 calc(25% - 16px); /* 4 cards per row */
+    max-width: calc(20% - 16px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative; /* Required for the overlay */
+    overflow: hidden; /* Keep hover prompt inside the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.p-card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Darker shadow */
+}
+
+.p-card .hover-prompt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 123, 255, 0.85); /* Semi-transparent blue */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-align: center;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+/* Show overlay on hover */
+.p-card:hover .hover-prompt {
+    opacity: 1; /* Make the prompt visible */
+}
+
+.p-card:hover .card-image1 {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+
+
+@media (max-width: 1025px) {
+    .p-card {
+        flex: 1 1 calc(50% - 16px); /* 2 cards per row for smaller screens */
+        max-width: calc(40% - 16px);
+    }
+
+    .p-card img{
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+    .p-card {
+        flex: 1 1 100%; /* 1 card per row for very small screens */
+        max-width: 80%;
+    }
+
+    .hover-prompt {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        padding: 10px;
+    }
+}

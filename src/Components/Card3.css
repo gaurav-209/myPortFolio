@@ -1,0 +1,68 @@
+.card3{
+    background: none;
+    border: 2px solid #faaa60;
+    height: 140px;
+    width: 20px;
+    border-radius: 50px;
+    color: white;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.desc2{
+    text-align: center;
+}
+
+.card-image {
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    background-color: rgba(245, 245, 220, 0.259);
+    border-radius: 50%;
+    display: flex;
+    margin-left: 10px;
+}
+/* Arrow Styles */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .arrow.next {
+    right: 10px; /* Position Next Arrow */
+  }
+  
+  .arrow.prev {
+    left: 10px; /* Position Previous Arrow */
+  }
+  
+  /* Responsive Arrow Adjustments */
+  @media (max-width: 768px) {
+    .arrow {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
+

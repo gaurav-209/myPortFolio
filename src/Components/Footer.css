@@ -1,0 +1,105 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.line1{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+
+.project{
+    display: flex;
+    padding: 20px;
+    gap: 500px;
+    justify-content: center;
+}
+
+.line2{
+    height: 2px;
+    width: 40%;
+    background-color: white;
+}
+
+.line3{
+    height: 2px;
+    width: 40%;
+    background-color: white;
+    margin-left: 320px;
+}
+
+.lines{
+    display: flex;
+    gap: 4opx;
+}
+
+.social-icon{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    top: -40px;
+}
+
+
+
+.footerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.social-box{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    top: -0px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .project{
+        gap: 200px;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (max-width: 750px) {
+
+    .line1{
+        top: 50px;
+    }
+    .project{
+        padding: 40px 0;
+        flex-direction: column;
+        gap: 40px;
+        font-size: small;
+        height: 160px;
+    }
+
+    .thanks{
+        gap: 10px;
+        font-size: medium;
+    }
+
+    .social-box{
+        width: 200px;
+    }
+
+    .social-icon{
+        height: 24px;
+        width: 24px;
+    }
+
+    .line2, .line3{
+        width: 200px;
+    }
+
+}

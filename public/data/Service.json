@@ -1,0 +1,66 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Custom Website Development",
+      "description": "Design and develop responsive and visually appealing websites tailored to your needs. Ideal for small businesses, personal projects, or blogs, with clean code and basic SEO integration.",
+      "price": 7000
+    },
+    {
+      "id": 2,
+      "title": "React.js Web Application Development",
+      "description": "Build simple yet efficient web applications using React.js. Perfect for projects requiring interactive and dynamic user interfaces with reusable components and smooth navigation.",
+      "price": 10000
+    },
+    {
+      "id": 3,
+      "title": "Website Redesign & Optimization",
+      "description": "Enhance your existing website with a fresh, modern design. Services include improving page speed, optimizing for mobile devices, and ensuring better usability.",
+      "price": 5000
+    },
+    {
+      "id": 4,
+      "title": "E-commerce Website Development",
+      "description": "Create basic e-commerce platforms with essential features like product catalogs, shopping carts, and payment gateways. Great for small businesses looking to establish an online presence.",
+      "price": 12000
+    },
+    {
+      "id": 5,
+      "title": "Website Maintenance & Bug Fixes",
+      "description": "Ensure your website stays functional and up-to-date with regular maintenance. Includes fixing bugs, updating plugins, and making minor content changes.",
+      "price": 1500,
+      "subscription": "monthly"
+    },
+    {
+      "id": 6,
+      "title": "Single Page Application (SPA) Development",
+      "description": "Develop lightweight and responsive Single Page Applications (SPAs) using React.js for projects like portfolios or small business websites with seamless user experience.",
+      "price": 6000
+    },
+    {
+      "id": 7,
+      "title": "Landing Page Design",
+      "description": "Design professional and conversion-focused landing pages for marketing campaigns or product promotions. Includes custom design and responsive layouts.",
+      "price": 4000
+    },
+    {
+      "id": 8,
+      "title": "Portfolio Website Creation",
+      "description": "Showcase your work and achievements with a simple, elegant portfolio website. Ideal for freelancers, artists, or professionals looking to build an online presence.",
+      "price": 6000
+    },
+    {
+      "id": 9,
+      "title": "Website Migration",
+      "description": "Safely transfer your website to a new hosting provider or platform. This includes basic testing and troubleshooting to ensure smooth functionality.",
+      "price": 3000
+    },
+    {
+      "id": 10,
+      "title": "Freelance Consulting for Beginners",
+      "description": "Offer advice and assistance for basic web development projects, including guidance on setting up a website, selecting tools, and implementing basic features.",
+      "price": 500,
+      "unit": "hourly"
+    }
+  ]
+}

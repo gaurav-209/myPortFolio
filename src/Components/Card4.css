@@ -1,0 +1,27 @@
+.card4{
+    background-color: #363434;
+    width: 300px;
+    height: 60px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+.card4-image{
+    height: 30px;
+    width: 30px;
+}
+
+.card4p{
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+    .card4{
+        height: 40px;
+    }
+}

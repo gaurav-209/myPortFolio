@@ -1,0 +1,15 @@
+.container{
+  height: 650px;
+  width: 100%;
+  background-image: url(Images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 1024px){
+  .container{
+    height: 500px;
+  }
+
+}

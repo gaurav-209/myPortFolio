@@ -1,0 +1,105 @@
+/* General Container */
+.services-container {
+  padding: 2rem;
+  text-align: center;
+  background-color: #363434;
+}
+
+.services-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #faaa60;
+}
+
+.services-description {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+/* Dynamic Grid for Services */
+.services-grid {
+  display: flex;
+  flex-wrap: wrap; /* Automatically wraps items to the next row */
+  gap: 1.5rem; /* Space between items */
+  justify-content: center; /* Center-align items */
+}
+
+/* Individual Service Card */
+.service-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 300px; /* Ensure consistent width */
+  width: 100%; /* Responsive */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h2 {
+  font-size: 1.5rem;
+  color: #7EA9E6;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.price {
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #28a745;
+}
+
+@media (max-width: 1024px) {
+  .services-grid {
+    gap: 1rem; /* Reduce spacing */
+  }
+
+  .service-card {
+    max-width: 45%; /* Display two cards per row */
+  }
+
+  .services-container h1 {
+    font-size: 2rem; /* Adjust title size */
+  }
+
+  .services-description {
+    font-size: 1.1rem; /* Adjust description font size */
+  }
+}
+
+/* Breakpoint: Screens smaller than 750px (Tablets Portrait or Small Mobiles) */
+@media (max-width: 750px) {
+  .services-grid {
+    flex-direction: column; /* Stack items vertically */
+    gap: 1rem; /* Smaller spacing between rows */
+  }
+
+  .service-card {
+    max-width: 80%; /* Full width for each card */
+  }
+
+  .services-container h1 {
+    font-size: 1.8rem; /* Smaller title */
+  }
+
+  .services-description {
+    font-size: 1rem; /* Smaller description */
+  }
+
+  .service-card h2 {
+    font-size: 1.2rem; /* Adjust card title size */
+  }
+
+  .service-card p {
+    font-size: 0.9rem; /* Adjust card text size */
+  }
+}

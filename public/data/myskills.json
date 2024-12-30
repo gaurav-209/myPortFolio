@@ -1,0 +1,11 @@
+[ {"imagesrc": "/images/Html.png", "title": "60%", "desc":"HTML", "alt": "Gaurav Mahavar Html skills"},
+  {"imagesrc":"/images/css-icon.png", "title":"60%", "desc":"CSS", "alt": "Gaurav Mahavar CSS skills"},
+  {"imagesrc":"/images/js-icon.png", "title":"60%", "desc":"JavaScript", "alt": "Gaurav Mahavar JavaScript skills"},
+  {"imagesrc":"/images/react-icon.png", "title":"60%", "desc":"React.Js", "alt": "Gaurav Mahavar React.Js skills"},
+  {"imagesrc":"/images/tailwind-icon.png", "title":"60%", "desc":"Tailwind", "alt": "Gaurav Mahavar Tailwind skills"},
+  {"imagesrc":"/images/figma-icon.png", "title":"60%", "desc":"Figma", "alt": "Gaurav Mahavar Figma skills"},
+  {"imagesrc":"/images/vscode-icon.png", "title":"60%", "desc":"Vscode", "alt": "Gaurav Mahavar Vscode skills"},
+  {"imagesrc":"/images/npm-icon.png", "title":"60%", "desc":"NPM", "alt": "Gaurav Mahavar NPM skills"},
+  {"imagesrc":"/images/git-icon.png", "title":"60%", "desc":"Git", "alt": "Gaurav Mahavar Git skills"},
+  {"imagesrc":"/images/python-icon.png", "title":"60%", "desc":"Python", "alt": "Gaurav Mahavar Python skills"}
+] 
